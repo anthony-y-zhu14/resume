@@ -9,13 +9,13 @@ export interface Education {
 
 export default [
   {
-    credential: "Bachelor of Science - Computer Science",
+    credential: "Bachelor of Science (Honours) - Computer Science",
     institution: "Carleton University",
-    dates: { start: "Sep 2019", end: "June 2024" },
+    dates: { start: "2019", end: "2023" },
   },
   {
-    credential: "Advance College Diploma - Civil Engineering",
-    institution: "Algonquin College",
-    dates: { start: "Sep 2014", end: "June 2018" },
+    credential: "Advance Diploma (Honours) - Civil Engineering",
+    institution: "Algonquin College of Applied Arts and Technology",
+    dates: { start: "2014", end: "2017" },
   }
-] as Array<Education>
+] satisfies Array<Education>

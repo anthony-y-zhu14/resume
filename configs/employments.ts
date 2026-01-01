@@ -10,14 +10,15 @@ export interface Employment {
 
 export default [
   {
-    role: "Software Developer, Internship",
-    org: "Ciena Corporation",
-    dates: { start: "May 2021", end: "August 2022" },
+    role: "Software Engineer",
+    org: "Ciena",
+    dates: { start: "May 2021", end: "Present" },
     details: [
-      "Employed as a Frontend Software Developer, maintained and contributed to various products and services offered by the company.",
-      "Contributed software engineering expertise across the product lifecycle, from requirements definition through successful deployment.",
-      "Excelled in rapid application development and management of technological issues for assigned projects, earning high customer satisfaction ratings.",
-      "Introduced methodologies and best practices that enhanced product definition, release processes, and customization to user needs.",
+      "Worked on large-scale frontend codebases spanning multiple applications and packages, delivering features and fixes within complex, long-lived systems.",
+      "Led a scaffolding and standardization effort to unify previously isolated projects under shared linting, bundler, browser target, and development configurations.",
+      "Built internal web-based tools to improve visibility into repository structure, dependencies, and ownership across the frontend ecosystem.",
+      "Developed DX-focused CLI tooling to automate pull request workflows, status checks, and deployment-related tasks, reducing friction in day-to-day development.",
+      "Contributed to a cross-team design system initiative using Web Components to enable UI reuse across React, Ember, and other frameworks."
     ],
   },
   {
@@ -25,8 +26,7 @@ export default [
     org: "WSP Canada Inc.",
     dates: { start: "April 2018", end: "December 2018" },
     details: [
-      "Employed as a QA technician, assisted engineers in lab testing and on-site inspection.",
-      "Supported geotechnical investigations including surveying, sampling, and preparing field borehole records.",
+      "Supported geotechnical investigations through field sampling, site inspections, laboratory testing, and preparation of technical records and reports."
     ],
   },
   {
@@ -34,8 +34,7 @@ export default [
     org: "Aecon Group Inc.",
     dates: { start: "July 2016", end: "April 2018" },
     details: [
-      "Employed as a QC technician, assisted engineers in lab testing and on-site inspection.",
-      "Supported geotechnical investigations including surveying, sampling, and preparing field borehole records.",
+      "Performed quality control and materials testing for construction projects, assisted engineers with field inspections, and maintained documentation to support compliance and safety requirements."
     ],
-  },
-] as Array<Employment>
+  }
+] satisfies Employment[]
